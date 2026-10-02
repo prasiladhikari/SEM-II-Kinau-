@@ -5,14 +5,11 @@ It is written to be simple and easy to read, with comments in every file.
 
 ## How to run
 
-You need [Node.js](https://nodejs.org) (version 18 or newer).
 
 ```bash
-npm install     # installs the packages (only once)
-npm run dev     # starts the app, then open the link shown (usually http://localhost:5173)
+npm install    
+npm run dev    
 ```
-
-Other commands: `npm run build` (make a production build), `npm run preview` (preview that build).
 
 ## What I used
 

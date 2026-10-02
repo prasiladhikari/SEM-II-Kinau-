@@ -7,7 +7,7 @@ function Navbar({ cartCount, theme, onToggleTheme }) {
   return (
     <header className="navbar">
       <Link to="/" className="logo font-nepali">
-        किन्नुहोस्
+        किन्नौ
       </Link>
 
       <nav className="nav-links">

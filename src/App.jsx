@@ -59,7 +59,7 @@ function App() {
     setTheme(theme === "light" ? "dark" : "light");
   }
 
-  // Section B: add to cart. If the product is already there, increase quantity.
+  
   function addToCart(product) {
     const existing = cart.find((item) => item.id === product.id);
     if (existing) {
@@ -77,15 +77,15 @@ function App() {
     setCart(cart.filter((item) => item.id !== id));
   }
 
-  // Section D: put the new product at the TOP of the list
+
   function addProduct(newProduct) {
     setProducts([newProduct, ...products]);
   }
 
-  // Total number of items (adds up all quantities)
+ 
   const cartCount = cart.reduce((total, item) => total + item.quantity, 0);
 
-  // ----- Section E: routes -----
+  // ----- routes -----
   return (
     <div>
       <Navbar cartCount={cartCount} theme={theme} onToggleTheme={toggleTheme} />
@@ -117,6 +117,7 @@ function App() {
             element={<Cart cart={cart} onRemove={removeFromCart} />}
           />
           <Route path="/add" element={<AddProduct onAddProduct={addProduct} />} />
+          
           {/* "*" matches any URL not listed above -> 404 page */}
           <Route path="*" element={<NotFound />} />
         </Routes>

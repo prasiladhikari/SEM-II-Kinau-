@@ -1,4 +1,5 @@
 // Navbar.jsx - top bar with links, cart count and dark mode button.
+
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import { ShoppingCart, Sun, Moon } from "lucide-react";
@@ -19,6 +20,7 @@ function Navbar({ cartCount, theme, onToggleTheme }) {
           <ShoppingCart size={20} />
           <span> ({cartCount})</span>
         </Link>
+
 
         {/* Dark mode button: shows the icon of the mode you will switch TO */}
         <button

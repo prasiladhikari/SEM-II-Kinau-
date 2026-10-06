@@ -1,4 +1,4 @@
-// ProductList.jsx - shows many ProductCards using .map() 
+// ProductList.jsx 
 import PropTypes from "prop-types";
 import ProductCard from "./ProductCard";
 

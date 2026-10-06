@@ -1,6 +1,6 @@
- # किन्नौ 
+#  किन्नौ
 
-A small shopping app built with **React (Vite)**, **React Router** and **functional components + Hooks only**.
+A small shopping (किन्नौ) app built with **React (Vite)**, **React Router** and **functional components + Hooks only**.
 It is written to be simple and easy to read, with comments in every file.
 
 ## How to run
@@ -44,7 +44,7 @@ src/
 
 ## Assumptions
 
-- Products come from `https://fakestoreapi.com/products`, so an internet connection is needed.
+- Products come from `https://fakestoreapi.com/products`, and it is stored in db.json so internet connection is not required to run the project 
 - New products added with the form are kept in memory only, so they disappear when the page is refreshed. The cart works the same way.
 - Added products have no rating, so the card shows "No rating yet".
 - Adding the same product twice increases its quantity in the cart.

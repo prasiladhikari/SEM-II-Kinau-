@@ -7,7 +7,9 @@ import Cart from "./pages/Cart";
 import AddProduct from "./pages/AddProduct";
 import NotFound from "./pages/NotFound";
 
-const API_URL = "https://fakestoreapi.com/products";
+// const API_URL = "https://fakestoreapi.com/products";
+const API_URL = "http://localhost:5000/products";
+
 
 function App() {
   // ----- State -----

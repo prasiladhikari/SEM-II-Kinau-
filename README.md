@@ -8,6 +8,7 @@ It is written to be simple and easy to read, with comments in every file.
 
 ```bash
 npm install    
+npx json-server db.json --port 5000 
 npm run dev    
 ```
 

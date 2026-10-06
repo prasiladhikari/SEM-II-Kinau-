@@ -1,4 +1,4 @@
- # किन्नौ
+ # किन्नौ 
 
 A small shopping app built with **React (Vite)**, **React Router** and **functional components + Hooks only**.
 It is written to be simple and easy to read, with comments in every file.

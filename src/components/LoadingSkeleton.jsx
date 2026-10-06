@@ -1,4 +1,4 @@
-// placeholder with the same layout as ProductCard  (this is for bonous section )
+// placeholder with the same layout as ProductCard 
 function LoadingSkeleton() {
   return (
     <div className="skeleton">

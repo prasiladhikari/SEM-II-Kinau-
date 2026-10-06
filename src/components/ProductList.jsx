@@ -1,4 +1,4 @@
-// ProductList.jsx - shows many ProductCards using .map() (Section A).
+// ProductList.jsx - shows many ProductCards using .map() 
 import PropTypes from "prop-types";
 import ProductCard from "./ProductCard";
 
@@ -9,11 +9,10 @@ function ProductList({ products, onAddToCart }) {
 
   return (
     <div className="product-grid">
-      {/* .map() turns each product object into a ProductCard.
-          "key" helps React track each item in the list. */}
+
       {products.map((product) => (
         <ProductCard
-          key={product.id}
+          key={product.id} //unique product id
           id={product.id}
           name={product.name}
           price={product.price}

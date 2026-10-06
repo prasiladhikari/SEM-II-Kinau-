@@ -1,4 +1,4 @@
-// Cart.jsx - the "/cart" page (Section E).
+// Cart.jsx - the "/cart" page 
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import { Trash2 } from "lucide-react";

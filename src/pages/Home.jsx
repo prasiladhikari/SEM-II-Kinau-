@@ -30,13 +30,12 @@ if (loading) {
     return <p className="message error-text">{error}</p>;
   }
 
-  // Section B (2): filter by name (lowercase both so "Shirt" matches "shirt")
+  // filter by name 
   let visibleProducts = products.filter((product) =>
     product.name.toLowerCase().includes(search.toLowerCase())
   );
 
-  // Section B (3): sort by price. filter() already gave us a new array,
-  // so sorting it will not change the original products.
+  // sort by price
   if (sortOrder === "low") {
     visibleProducts.sort((a, b) => a.price - b.price);
   } else if (sortOrder === "high") {
@@ -48,11 +47,10 @@ if (loading) {
       <h1>Today's Product</h1>
 
       <div className="toolbar">
-        {/* Controlled inputs: the value always comes from state */}
         <input
           type="text"
           placeholder="Search products..."
-          value={search}
+          value={search} 
           onChange={(e) => setSearch(e.target.value)}
         />
         <select value={sortOrder} onChange={(e) => setSortOrder(e.target.value)}>

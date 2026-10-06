@@ -1,4 +1,4 @@
-// NotFound.jsx - 404 page for URLs that do not exist (Section E).
+// NotFound.jsx - 404 page for URLs that do not exist
 import { Link } from "react-router-dom";
 
 function NotFound() {

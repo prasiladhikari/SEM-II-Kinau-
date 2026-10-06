@@ -20,6 +20,7 @@ function Navbar({ cartCount, theme, onToggleTheme }) {
         </Link>
 
 
+
         {/* Dark mode button: shows the icon of the mode you will switch TO */}
         <button
           className="icon-button"

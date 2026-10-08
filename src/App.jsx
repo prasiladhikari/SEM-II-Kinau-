@@ -8,8 +8,8 @@ import AddProduct from "./pages/AddProduct";
 import NotFound from "./pages/NotFound";
 
 // const API_URL = "https://fakestoreapi.com/products";
-// const API_URL = "http://localhost:5000/products";
-const API_URL = "https://jsonkeeper.com/b/S86IR";
+const API_URL = "http://localhost:5000/products";
+// const API_URL = "https://jsonkeeper.com/b/S86IR";
 
 
 function App() {
